@@ -13,7 +13,7 @@ This is also a great class for beginning Backbone users to hone their existing s
 Course Outline
 --------------
 
-In the 3 day course we will cover:
+The core concepts of backbone - views, models, collections & routers - will be explained in the context of building an application from scratch, meaning you’ll be writing code from the beginning of the course. This will include:
 
 - Backbone's version of MVC
 - How to structure your application
@@ -23,9 +23,7 @@ In the 3 day course we will cover:
 - Data modeling
 - Templating with Handlebars.js
 - Nesting views and rendering collections
-- Testing your application
-
-** right column **
+- Testing your application** right column **
 
 Date
 ----
