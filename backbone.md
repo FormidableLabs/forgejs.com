@@ -1,7 +1,7 @@
 Backbone Intensive Weekend
 ==========================
 
-Over the course of one evening and two days, you will learn build a client-side, event driven web application with Backbone under the guidance of world class mentors. The focus of the weekend will be project based application development designed to prepare you to work independently afterwards. 
+Over the course of one evening and two days, you will learn build a client-side, event driven web application with Backbone under the guidance of world class mentors. The focus of the weekend will be project-based application development designed to prepare you to work independently afterwards. 
 
 Am I prepared for the weekend?
 ------------------------------
@@ -13,7 +13,7 @@ This is also a great class for beginning Backbone users to hone their existing s
 Course Outline
 --------------
 
-The core concepts of backbone - views, models, collections & routers - will be explained in the context of building an application from scratch, meaning you’ll be writing code from the beginning of the course. This will include:
+The core concepts of Backbone - views, models, collections & routers - will be explained in the context of building an application from scratch, meaning you’ll be writing code from the beginning of the course. This will include:
 
 - Backbone's version of MVC
 - How to structure your application
@@ -23,7 +23,10 @@ The core concepts of backbone - views, models, collections & routers - will be e
 - Data modeling
 - Templating with Handlebars.js
 - Nesting views and rendering collections
-- Testing your application** right column **
+- Introduction to modular development
+- Testing your application
+
+** right column **
 
 Date
 ----
