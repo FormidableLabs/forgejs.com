@@ -1,0 +1,229 @@
+.logo {
+  margin-top: 1em;
+
+  font-size: 1.875em;
+  line-height: 1;
+  text-align: center;
+
+  b {
+    padding: 6px 5px 0px 10px;
+
+    border: 1px solid rgba(0,0,0,0.1);
+
+    background-color: #F0DB4D;
+    @include background-image(linear-gradient(top, rgba(255,255,255,0.2), rgba(255,255,255,0.1)));
+  }
+
+  span {
+    display: block;
+    position: relative;
+    top: 6px;
+
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+
+.tagline {
+  font-family: $serif;
+  font-size: 3.75em;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.tagline-small {
+  margin: 60px 0 36px;
+
+  border-bottom: 1px solid #eee;
+
+  font-size: 36px;
+}
+
+.section {
+  margin-bottom: 3em;
+}
+
+.subhead {
+  display: block;
+  margin: 0;
+
+  font-family: $sans;
+  font-size: 0.875em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.course-icon {
+  height: 254px;
+  padding: 1em;
+
+  border: 1px solid rgba(0,0,0,0.2);
+
+  @include background-image(linear-gradient(top, rgba(255,255,255,0.4), rgba(255,255,255,0)));
+
+  @include box-shadow(inset 0 1px 0 rgba(255,255,255,0.4));
+  font-family: $sans;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+
+  b {
+    display: block;
+    margin-top: 20px;
+
+    font-size: 9em;
+    line-height: 1;
+  }
+}
+
+.course-icon-js {
+  background-color: $yellow;
+}
+
+.course-icon-b {
+  background-color: $blue;
+}
+
+.course-icon-n {
+  background-color: $green;
+}
+
+.course-summary {
+  padding: 1em 1em 0.875em;
+
+  border: 1px solid rgba(0,0,0,0.2);
+  border-top: 0;
+
+  background-color: #eee;
+  @include background-image(linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,0)));
+
+  p {
+    margin: 0 0 0.5em;
+
+    color: #555;
+    font-size: 0.875em;
+  }
+}
+
+.small-link {
+  color: darken($blue, 20%);
+  font-family: $sans;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.location-container {
+  height: 288px;
+
+  background-image: url('http://cinchdev-makers.s3.amazonaws.com/wp-content/uploads/background/30.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 -180px;
+}
+
+.location {
+  height: 100%;
+  width: 30%;
+
+  border: 1px solid rgba(0,0,0,0.2);
+  border-right-color: darken(#eee, 25%);
+
+  background-color: rgba(#eee, 0.9);
+  @include background-image(linear-gradient(top, rgba(255,255,255,0.5), rgba(255,255,255,0)));
+
+  @include box-sizing(border-box);
+  @include box-shadow(inset 0 1px 0 rgba(255,255,255,0.3));
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+
+.location-head {
+  padding: 1em 1em 2.5em;
+
+  border-bottom: 1px solid #ccc;
+
+  box-shadow: 0 1px 0 #fff;
+}
+
+.location-details {
+  padding: 0 1em 1em;
+
+  color: #555;
+  text-align: left;
+
+  p {
+    font-size: 14px;
+  }
+}
+
+.instructors {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+
+  background-color: #eee;
+  @include background-image(linear-gradient(top, rgba(255,255,255,0.5), rgba(255,255,255,0)));
+
+  @include box-shadow(inset 0 1px 0 rgba(255, 255, 255, 0.7));
+}
+
+.instructor {
+  clear: both;
+  margin: 1.5em;
+}
+
+.instructor-name {
+  margin-bottom: 0
+}
+
+.instructor-bio {
+  margin-top: 0;
+}
+
+.instructor-img {
+  float: left;
+  margin-right: 1.5em;
+  width: 150px;
+
+  border-radius: 50%;
+}
+
+.subscribe {
+  margin: 3em 0 5em;
+
+  text-align: center;
+
+  p {
+    border-bottom: 1px solid #eee;
+
+    font-size: 1.5em;
+  }
+}
+
+.subscribe-field {
+  padding: 2px 5px 3px;
+  width: 225px;
+
+  border: 1px solid #AAA;
+  border-radius: 4px 0 0 4px;
+}
+
+.subscribe-btn {
+  margin-left: -5px;
+
+  border: 1px solid #aaa;
+  border-radius: 0 4px 4px 0;
+
+  background-color: #eee;
+  @include background-image(linear-gradient(top, rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0)));
+
+  @include box-shadow(inset 0 1px 0 #fff);
+  text-shadow: 0 1px 0 #fff;
+}
+
+.copyright {
+  font-family: $sans;
+  font-size: 12px;
+  text-align: center;
+}
