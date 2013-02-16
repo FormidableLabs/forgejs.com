@@ -36,7 +36,7 @@ Location
 --------
 [The HUB Seattle](http://thehubseattle.com/)
 
-Preperation
+Preparation
 -----------
 
 In addition to your own laptop with WiFi, please read our [course preparation guide](preparation.html) for the tools you'll want to have configured on your machine.

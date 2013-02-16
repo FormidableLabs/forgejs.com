@@ -26,7 +26,7 @@ module.exports = function(grunt) {
       }
     },
     watch: {
-      files: ['<config:lint.files>', 'css/scss/*.scss', 'index.html', 'docs.html'],
+      files: ['<config:lint.files>', 'css/scss/*.scss', 'index.html', 'workshop.html'],
       tasks: 'compass:build lint concat min reload'
     },
     compass: {
