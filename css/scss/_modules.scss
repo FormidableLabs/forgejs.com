@@ -60,6 +60,7 @@
   height: 256px;
   padding: 1em;
 
+  color: #fff;
   font-family: $sans;
 
   b {
@@ -73,16 +74,16 @@
 
 .course-icon-js {
   background-color: $yellow;
+
+  color: #333;
 }
 
 .course-icon-b {
   background-color: desaturate(darken($blue, 20%), 25%);
-  background-color: $blue;
 }
 
 .course-icon-n {
   background-color: desaturate(darken($green, 20%), 25%);
-  background-color: $green;
 }
 
 .course-summary {
