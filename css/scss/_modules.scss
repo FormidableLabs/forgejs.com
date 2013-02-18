@@ -95,14 +95,26 @@
 
 .course-icon-a {
   background-color: $red;
+
+  &:hover {
+    background-color: lighten($red, 20%);
+  }
 }
 
 .course-icon-b {
   background-color: $blue;
+
+  &:hover {
+    background-color: lighten($blue, 20%);
+  }
 }
 
 .course-icon-n {
   background-color: $green;
+
+  &:hover {
+    background-color: lighten($green, 20%);
+  }
 }
 
 .course-summary {
