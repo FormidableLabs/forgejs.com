@@ -1,8 +1,25 @@
+// Compass
+
 @import 'compass/css3';
 
-$serif: Adelle, Georgia, Times, Times New Roman, serif;;
+// Font Families
+
+$serif: Adelle, Georgia, Times, Times New Roman, serif;
 $sans: JAF-FacitWeb, Helvetica Neue, Helvetica, Arial, sans-serif;
 
+// Course Icons
+
 $yellow: #F0DB4D;
-$blue: #4D9BF0;
-$green: #4DF07B;
+$blue: #2C69AB;
+$green: #2CAB50;
+$red: #AB2C2C;
+
+// Greys
+
+$light-grey: #eee;
+$grey: #ccc;
+$dark-grey: #333;
+
+// Links
+
+$link-blue: #1168C6;

@@ -22,7 +22,7 @@ input,
 select,
 textarea {
   font-family: $serif;
-  color: #333;
+  color: $dark-grey;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,7 +43,7 @@ img {
 }
 
 a {
-  color: #1168C6;
+  color: $link-blue;
   text-decoration: none;
 
   &:hover {
@@ -75,7 +75,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid $grey;
   margin: 1em 0;
   padding: 0;
 }
