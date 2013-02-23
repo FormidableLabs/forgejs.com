@@ -1,10 +1,10 @@
 Backbone Intensive Weekend
 ==========================
 
-Over the course of one evening and two days, you will learn build a client-side, event driven web application with Backbone under the guidance of world class mentors. The focus of the weekend will be project-based application development designed to prepare you to work independently afterwards. 
+Over the course of one evening and two days, you will learn build a client-side, event driven web application with Backbone under the guidance of world class mentors. The focus of the weekend will be project-based application development designed to prepare you to work independently afterwards.
 
-Am I prepared for the weekend?
-------------------------------
+Prerequisites
+-------------
 
 Intermediate to [advanced JavaScript knowledge](advanced-js.html) is assumed. You should be familiar with most jQuery APIs and understand the [MVC pattern](http://addyosmani.com/blog/understanding-mvc-and-mvp-for-javascript-and-backbone-developers/) either in concept or through using another framework.
 
