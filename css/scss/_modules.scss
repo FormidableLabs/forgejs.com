@@ -7,7 +7,7 @@
     position: relative;
     bottom: 2px;
 
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 800;
     letter-spacing: -2px;
     line-height: 1;
@@ -15,7 +15,7 @@
   }
 
   img {
-    width: 120px
+    width: 170px
   }
 
   a {
@@ -46,7 +46,7 @@
   border-bottom: 1px solid $light-grey;
 
   font-family: $serif;
-  font-size: 36px;
+  font-size: 48px;
   line-height: 1.2;
   text-align: center;
 }
@@ -98,7 +98,7 @@
 }
 
 a.course-icon-a:hover {
-  background-color: lighten($red, 20%);
+  background-color: lighten($red, 10%);
 }
 
 .course-icon-b {
@@ -106,7 +106,7 @@ a.course-icon-a:hover {
 }
 
 a.course-icon-b:hover {
-  background-color: lighten($blue, 20%);
+  background-color: lighten($blue, 10%);
 }
 
 .course-icon-n {
@@ -114,7 +114,7 @@ a.course-icon-b:hover {
 }
 
 a.course-icon-n:hover {
-  background-color: lighten($green, 20%);
+  background-color: lighten($green, 10%);
 }
 
 .course-summary {
