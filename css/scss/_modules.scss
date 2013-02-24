@@ -41,7 +41,8 @@
 }
 
 .tagline {
-  margin: 60px 0 36px;
+  padding-bottom: 10px;
+  margin: 40px 0 40px;
 
   border-bottom: 1px solid $light-grey;
 
@@ -128,12 +129,13 @@ a.course-icon-n:hover {
   padding: 0.375em 0.5em;
 
   border: 0.125em solid $dark-grey;
-  border-radius: 4px;
+  border-radius: 6px;
 
   background: $dark-grey;
 
   color: #fff;
   font-family: $sans;
+  font-size: 18px;
 
   &:hover {
     background: #fff;
@@ -173,15 +175,15 @@ a.course-icon-n:hover {
 
 .instructors {
   padding: 0;
-  margin: 0 0 0 -44px;
+  margin: 0 0 0 0;
 
   list-style: none;
 }
 
 .instructor {
   display: inline-block;
-  margin: 0.5em 0 0.5em 44px;
-  width: 288px;
+  margin:  0.5em 44px 0.5em 44px;
+  width: 388px;
 
   text-align: center;
   vertical-align: top;
@@ -195,12 +197,12 @@ a.course-icon-n:hover {
 .instructor-bio {
   margin-top: 0;
 
-  font-size: 14px;
+  font-size: 18px;
   text-align: left;
 }
 
 .instructor-img {
-  width: 150px;
+  width: 200px;
 
   border-radius: 50%;
 }
@@ -227,7 +229,8 @@ a.course-icon-n:hover {
 }
 
 .subscribe-field {
-  height: 26px;
+  height: 40px;
+  font-size:18px;
   padding: 0 6px;
   width: 225px;
 
@@ -236,10 +239,10 @@ a.course-icon-n:hover {
 }
 
 .subscribe-btn {
-  height: 28px;
+  height: 42px;
   padding: 0 6px;
   margin-left: -5px;
-
+  font-size:18px;
   border: 1px solid #aaa;
   border-radius: 0 4px 4px 0;
 
