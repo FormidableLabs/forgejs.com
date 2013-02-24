@@ -209,31 +209,32 @@ a.course-icon-n:hover {
   border-radius: 30%;
 }
 
+.instructors-small-header {
+  margin-top: -1em;
+  padding-bottom: 0.3em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid $light-grey;
+}
+
 .instructors-small {
 
 
   .instructor-img {
 
-    width:175px;
-    float: left;
-    margin-left:0;
-    margin-right:25px;
-    margin-bottom:40px;
+    width:125px;
   }
 
   .instructor  {
-    width: inherit;
-    margin-left:0;
-    margin-right:0;
-    &:first-child {
-      margin-top: 40px;
-    }
+    margin-left:24px;
+    margin-right:24px;
+    width: 268px;
   }
 
   h3 {
-    text-align: left;
-    padding-top: 0;
-    margin-top:0;
+  }
+
+  .instructor-bio {
+    font-size: 16px;
   }
 }
 
