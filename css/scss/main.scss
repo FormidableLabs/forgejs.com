@@ -4,6 +4,7 @@
 @import 'layout';
 @import 'modules';
 @import 'state';
+@import 'ie';
 @media only screen and (min-width: 800px) {
   @import 'breakpoint-1';
 }
