@@ -1,15 +1,25 @@
 {
-  "name" : "Thorax",
+  "name" : "ForgeJS",
   "version" : "0.0.1",
   "private" : true,
   "devDependencies" : {
-    "grunt"       : "0.3.17",
-    "fs"          : "latest",
-    "path"        : "latest",
-    "which"       : "latest",
-    "connect"     : "latest",
-    "buffers"     : "latest",
-    "http-proxy"  : "latest",
+    "grunt": "~0.4.0",
+    "fs": "latest",
+    "path": "latest",
+    "which": "latest",
+    "connect": "latest",
+    "buffers": "latest",
+    "http-proxy": "latest",
+    "websocket": "latest",
+    "open": "latest",
+    "grunt-contrib-connect": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-uglify": "~0.1.1",
+    "grunt-contrib-livereload": "~0.1.1",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-imagemin": "~0.1.2",
+    "grunt-contrib-compass": "~0.1.2",
+    "grunt-regarde": "~0.1.1",
     "websocket"   : "latest"
   }
 }
