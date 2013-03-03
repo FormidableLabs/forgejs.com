@@ -293,7 +293,6 @@ a.course-icon-n:hover {
 }
 
 .sidebar {
-  margin-top: -1px;
   padding: 1em;
 
   background: $dark-grey;
@@ -312,6 +311,7 @@ a.course-icon-n:hover {
 
 .sidebar-container {
   margin-top: -1px;
+  position: relative;
 }
 
 .content {
