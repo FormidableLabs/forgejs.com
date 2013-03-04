@@ -1,13 +1,19 @@
-.logo {
-  margin: 32px 0 64px;
+.header {
+  padding: 1.5em 0;
+  position: relative;
 
-  text-align: center;
+  border-bottom: 1px solid $grey;
+}
+
+.logo {
+  float: left;
+  margin: 0;
 
   b {
     position: relative;
     bottom: 2px;
 
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 800;
     letter-spacing: -2px;
     line-height: 1;
@@ -15,7 +21,7 @@
   }
 
   img {
-    width: 170px
+    width: 105px
   }
 
   a {
@@ -27,11 +33,30 @@
   }
 }
 
-.logo-nav {
-  margin-bottom: 0;
-  padding-bottom: 32px;
+.nav {
+  position: absolute;
+  bottom: 24px;
+  right: 0;
 
-  border-bottom: 1px solid $grey;
+  font-family: $sans;
+  font-size: 24px;
+  font-weight: bold;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+  }
+
+  li {
+    float: left;
+    margin-left: 48px;
+  }
+
+  a {
+    color: $dark-grey;
+  }
 }
 
 .details {
@@ -50,6 +75,12 @@
   font-size: 48px;
   line-height: 1.2;
   text-align: center;
+}
+
+.tagline-alt {
+  padding-bottom: 0;
+
+  border: 0;
 }
 
 .section {
@@ -293,7 +324,6 @@ a.course-icon-n:hover {
 }
 
 .sidebar {
-  margin-top: -1px;
   padding: 1em;
 
   background: $dark-grey;
@@ -312,6 +342,7 @@ a.course-icon-n:hover {
 
 .sidebar-container {
   margin-top: -1px;
+  position: relative;
 }
 
 .content {
